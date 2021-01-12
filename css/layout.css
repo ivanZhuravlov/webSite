@@ -1280,13 +1280,41 @@ footer .copyright  li:first-child:before {
    display: flex;
 }
 
+.first-item {
+   margin-top: 1.5em;
+}
+
 img.post-big {
    max-width: 100%;
 }
 
+#page-content {
+   display: flex;
+}
+
 @media screen and (max-width: 768px) {
+
+   .navigation {
+      padding-top: 1em;
+      padding-left: 1em;
+   }
+
    .flex-wrapper {
       display: flex;
       flex-direction: column;
+   }
+
+   #page-content {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+
+   .navigation-list {
+      display: flex;
+      align-items: center;
+   }
+
+   .first-item {
+      margin-top: 0;
    }
  }
