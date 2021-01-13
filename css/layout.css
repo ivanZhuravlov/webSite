@@ -1294,12 +1294,32 @@ img.post-big {
 }
 
 .navigation {
+   max-height: 200px;
    overflow: hidden;
 }
+
+.sticky {
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 54px;
+   overflow: hidden;
+ }
 
 
 
 @media screen and (max-width: 768px) {
+   
+   .post .entry-header {
+      position: unset;
+   }
+   .sticky {
+      background-color: thistle;
+      top: 13px;
+    }
+
+   .column, .columns {
+      position: unset;
+   }
    ul li {
       display: block;
       line-height: revert;
