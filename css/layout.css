@@ -1313,7 +1313,7 @@ img.post-big {
       position: unset;
    }
    .sticky {
-      background-color: thistle;
+      background-color: #fff;
       top: 13px;
     }
 
