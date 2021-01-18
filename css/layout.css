@@ -1320,6 +1320,18 @@ img.post-big {
    width: 20px;
 }
 
+.icon-img-video {
+   width: 25px;
+}
+
+.icon-img-question {
+   width: 18px;
+}
+
+.icon-img-book {
+   width: 22px;
+}
+
 @media screen and (max-width: 768px) {
    
    .post .entry-header {
