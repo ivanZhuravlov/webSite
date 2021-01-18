@@ -1332,6 +1332,24 @@ img.post-big {
    width: 27px;
 }
 
+.records-wrapper {
+   /* padding-left: 3em; */
+}
+
+.press-header {
+   text-align: left;
+   margin-bottom: 1.2em;
+   margin-top: 2em;
+}
+
+.press-header:first-child {
+   margin-top: 0.6em;
+}
+
+.press-record {
+   text-align: left;
+}
+
 @media screen and (max-width: 768px) {
    
    .post .entry-header {
