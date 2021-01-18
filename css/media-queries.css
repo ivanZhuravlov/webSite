@@ -87,13 +87,17 @@
 
 @media only screen and (max-width: 767px) {
 
+   ul#nav {
+      display: flex;
+      justify-content: space-around;
+   }
+
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap {
-      width: auto;
+      width: 100%;
       margin: 0;
 
-      position: absolute;
       top: 0;
       right: 0;
    }
@@ -136,7 +140,6 @@
    /* hide menu panel */
    #nav-wrap ul#nav {
       height: auto;
-		display: none;
       clear: both;
 
       width: auto;
@@ -157,7 +160,6 @@
    }
 
    ul#nav li {
-      width: 92%;
       display: block;
       height: auto;
       margin: 0 auto;
@@ -435,7 +437,6 @@
    /* primary navigation */
    #nav-wrap { width: 100%; }
    #nav-wrap ul#nav {
-      top: 72px;
       right: 0px;
    }
 
