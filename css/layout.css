@@ -1332,6 +1332,10 @@ img.post-big {
    width: 27px;
 }
 
+.icon-img-older {
+   width: 25px;
+}
+
 .records-wrapper {
    /* padding-left: 3em; */
 }
@@ -1350,7 +1354,21 @@ img.post-big {
    text-align: left;
 }
 
+.curso-header {
+   margin-bottom: 0.6em;
+}
+
+.curso-record {
+   text-align: left;
+   margin-left: 1em;
+}
+
 @media screen and (max-width: 768px) {
+
+   iframe {
+      width:100%;
+      height: auto;
+   }
    
    .post .entry-header {
       position: unset;
