@@ -1308,6 +1308,7 @@ img.post-big {
    width: 280px;
 }
 
+
 .icon-img-pdf {
    width: 20px; 
 }
@@ -1364,6 +1365,10 @@ img.post-big {
 }
 
 @media screen and (max-width: 768px) {
+
+   .family-img {
+      width: 100%;
+   }
 
    iframe {
       width:100%;
