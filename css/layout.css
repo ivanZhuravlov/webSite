@@ -35,8 +35,8 @@ img { border-radius: 3px; }
 /* page title */
 #page-title {
    background: #383232 url(../images/header-bg.jpg);
-   padding-top: 42px;
-   padding-bottom: 54px;
+   padding-top: 20px;
+   padding-bottom: 34px;
 }
 #page-title h1 {
    font: 50px/60px raleway-bold, sans-serif;
@@ -223,7 +223,7 @@ header .logo a {
 /* nav-wrap */
 #nav-wrap {
 	position: relative;
-   font: 14px raleway-bold, sans-serif;
+   font: 18px raleway-bold, sans-serif;
    float: right;
    margin-top: 36px;
    z-index: 99999;
@@ -801,7 +801,7 @@ div .post-content {
 /* ------------------------------------------------------------------ */
 
 .post {
-   padding-top: 24px;
+   /* padding-top: 24px; */
    padding-bottom: 18px;
 }
 .post .entry-header {
@@ -1308,13 +1308,17 @@ img.post-big {
    width: 280px;
 }
 
+.icon-wrapper {
+   display: flex;
+   justify-content: flex-end;
+}
 
 .icon-img-pdf {
-   width: 20px; 
+   width: 25px; 
 }
 
 .icon-img-gated {
-   width: 25px; 
+   width: 20px; 
 }
 
 .icon-img-sides {
@@ -1322,7 +1326,7 @@ img.post-big {
 }
 
 .icon-img-video {
-   width: 30px;
+   width: 22px;
 }
 
 .icon-img-question {
