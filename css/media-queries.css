@@ -87,6 +87,10 @@
 
 @media only screen and (max-width: 767px) {
 
+   p {
+      margin-bottom: 14px;
+   }
+
    ul#nav {
       display: flex;
       justify-content: space-around;
