@@ -854,6 +854,10 @@ div .post-content {
    margin-bottom: 18px;
 }
 
+.no-picture {
+   width: 100%;
+}
+
 /* tags */
 .post .post-content .tags {
   margin-top: 18px;
