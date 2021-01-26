@@ -1375,7 +1375,9 @@ img.post-big {
 @media screen and (max-width: 768px) {
 
    .post-img {
-      width: 70%;
+      width: 420px;
+      height: 230px;
+      object-fit: cover;
    }
    
    .icon-wrapper {
@@ -1459,15 +1461,13 @@ img.post-big {
    }
 
    .post-img {
-      width: 100%;
+      width: 280px;
+      height: 200px;
+      object-fit: cover;
    }
  }
 
  @media screen and (max-width: 375px) {
-
-   .post-img {
-      width: 230px;
-   }
 
    ul li {
       line-height: 18px;
