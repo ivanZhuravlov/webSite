@@ -1325,6 +1325,10 @@ img.post-big {
    margin-bottom: 50px;
 }
 
+.subtext {
+   font-size: 13px;
+}
+
 .icon-wrapper span {
    display: flex;
 }
@@ -1334,7 +1338,7 @@ img.post-big {
 }
 
 .icon-img-bib {
-   width: 28px; 
+   width: 27px; 
 }
 
 .icon-img-gated {
