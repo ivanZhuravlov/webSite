@@ -1281,7 +1281,12 @@ footer .copyright  li:first-child:before {
 
 .post-content p {
    text-align: justify;
+   margin-bottom: 0;
 }
+.post-content p.subtext {
+   margin-bottom: 30px;
+}
+
 
 .flex-wrapper {
    display: flex;
