@@ -1476,10 +1476,6 @@ img.post-big {
  }
 
  @media screen and (max-width: 425px) {
-   .post-content p {
-      text-align: center;
-   }
-
 
    div .post-content {
       margin-left: 0;
