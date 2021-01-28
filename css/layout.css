@@ -1282,9 +1282,12 @@ footer .copyright  li:first-child:before {
 .post-content p {
    text-align: justify;
    margin-bottom: 0;
+   font-weight: 600;
+   color: #515659;
 }
 .post-content p.subtext {
    margin-bottom: 30px;
+   font-weight: 100;
 }
 
 
